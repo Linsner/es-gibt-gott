@@ -1,16 +1,17 @@
-# Bootstrap w/ Vite
-
-Include [Bootstrap](https://getbootstrap.com)'s source Sass and individual JavaScript plugins with [Vite](https://vitejs.dev/).
-
-## Edit in browser
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/twbs/examples/tree/main/vite?file=src%2Findex.html)
-
+# es-gibt-gott.de
 ## How to use
 
+After first clone
 ```sh
-git clone https://github.com/twbs/examples.git
-cd examples/vite/
 npm install
-npm start
+```
+
+run dev server
+```sh
+npx vite
+```
+
+run build
+```sh
+npx vite build
 ```
