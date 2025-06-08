@@ -17,6 +17,9 @@
       <header
         class="d-flex justify-content-between align-items-md-center pb-3 mb-3 border-bottom"
       >
+        <a href="#impressum" class="text-decoration-none text-light"
+          >Impressum</a
+        >
         <h1 class="h4 text-light">
           <a
             href="/"
@@ -25,16 +28,59 @@
             <span>Es gibt Gott</span>
           </a>
         </h1>
-        <a href="#impressum" class="text-decoration-none text-light"
-          >Impressum</a
-        >
+        <a id="btnSwitch" href="#" class="text-decoration-none text-light"
+          ><i class="bi bi-brightness-high-fill"></i
+        ></a>
       </header>
     </div>
 
     <!-- MAIN CONTENT -->
+    <div
+      id="chapter-content"
+      class="container px-5 py-5 mx-auto border rounded shadow hidden"
+    >
+      <div class="row mb-3 border-top">
+        <div class="col-2">
+          <i
+            style="font-size: 18pt"
+            class="bi bi-arrow-left-circle text-muted"
+          ></i>
+        </div>
+        <div class="col-8 text-center">
+          <i
+            style="font-size: 18pt"
+            class="bi bi-arrow-up-circle text-muted"
+          ></i>
+        </div>
+        <div class="col-2 text-end">
+          <i
+            style="font-size: 18pt !important"
+            class="bi bi-arrow-right-circle text-muted"
+          ></i>
+        </div>
+      </div>
+      <div class="row border-bottom">
+        <div class="col-12">
+          <h1
+            class="text-center"
+            style="
+              text-transform: uppercase;
+              color: gray;
+              letter-spacing: 0.45em;
+            "
+          >
+            Kapitel 1
+          </h1>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12" id="chapter-text"></div>
+      </div>
+    </div>
+
     <div class="container px-5 py-5 mx-auto border rounded shadow">
       <div class="row">
-        <div class="col-12 col-xl-8 ps-3 pe-5">
+        <div class="col-12">
           <h1>Willkommen</h1>
           <p>
             Diese Seite dient dazu dir die Bibel, Gott und Jesus Christus
@@ -60,6 +106,75 @@
             Lektion wird dir ein anderes Detail über die Bibel und deren Urheber
             bekannt machen.
           </p>
+
+          <div class="row">
+            <div class="col-sm-3 mb-3 mb-sm-0">
+              <div class="card border rounded chapter-card">
+                <div class="card-body">
+                  <p class="card-title">1</p>
+                  <a
+                    href="#"
+                    data-chapter="1"
+                    class="stretched-link text-decoration-none text-center"
+                    onclick="openChapter(1)"
+                    >Was ist die Wahrheit?</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3 mb-3 mb-sm-0">
+              <div class="card border rounded chapter-card">
+                <div class="card-body">
+                  <p class="card-title">2</p>
+                  <a
+                    href="#"
+                    data-chapter="1"
+                    class="stretched-link text-decoration-none text-center"
+                    onclick="openChapter(1)"
+                    >Wer ist Gott?</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3 mb-3 mb-sm-0">
+              <div class="card border rounded chapter-card">
+                <div class="card-body">
+                  <p class="card-title">3</p>
+                  <a
+                    href="#"
+                    data-chapter="1"
+                    class="stretched-link text-decoration-none text-center"
+                    onclick="openChapter(1)"
+                    >Wer ist der Mensch?</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3 mb-3 mb-sm-0">
+              <div class="card border rounded chapter-card">
+                <div class="card-body">
+                  <p class="card-title">4</p>
+                  <a
+                    href="#"
+                    data-chapter="1"
+                    class="stretched-link text-decoration-none text-center"
+                    onclick="openChapter(1)"
+                    >Der Ursprung der Welt</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
 
           <h4 id="1">Auf der Suche nach der Wahrheit</h4>
           <p>
@@ -252,28 +367,6 @@
           </p>
           <p>(Fortsetzung folgt)</p>
           <!-- <p><a href="lecture-2.html">Wer ist Gott?</a></p> -->
-        </div>
-
-        <div class="col-12 col-xl-4 px-5 border-start">
-          <h1>&nbsp;</h1>
-          <div style="position: sticky; top: 1rem">
-            <h5>Inhalt</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link active" href="#1"
-                  >Auf der Suche nach der Wahrheit</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#2">Wie ist die Bibel zu lesen?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#3"
-                  >Die Bedeutung des Wortes Gottes für unser Leben</a
-                >
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
 
