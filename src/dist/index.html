@@ -8,8 +8,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <script type="module" crossorigin src="/assets/index-EokiJ9bd.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CFln9bCQ.css">
+    <script type="module" crossorigin src="/assets/index-ZfVBq63w.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BpfFiIA5.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -17,6 +17,9 @@
       <header
         class="d-flex justify-content-between align-items-md-center pb-3 mb-3 border-bottom"
       >
+        <!-- <a href="#impressum" class="text-decoration-none text-light"
+          >Impressum</a
+        > -->
         <h1 class="h4 text-light">
           <a
             href="/"
@@ -25,16 +28,93 @@
             <span>Es gibt Gott</span>
           </a>
         </h1>
-        <a href="#impressum" class="text-decoration-none text-light"
-          >Impressum</a
-        >
+        <a id="btnSwitch" href="#" class="text-decoration-none text-light"
+          >Theme: <i class="bi bi-brightness-high-fill"></i
+        ></a>
       </header>
     </div>
 
     <!-- MAIN CONTENT -->
-    <div class="container px-5 py-5 mx-auto border rounded shadow">
+    <div
+      id="chapter-content"
+      class="container px-5 py-5 mx-auto border rounded shadow hidden"
+    >
+      <div class="row mb-3 border-top">
+        <div class="col-2">
+          <a href="#" class="left-nav-button">
+            <i
+              style="font-size: 18pt"
+              class="bi bi-arrow-left-circle text-muted"
+            ></i>
+          </a>
+        </div>
+        <div class="col-8 text-center">
+          <a href="#" class="up-nav-button">
+            <i
+              style="font-size: 18pt"
+              class="bi bi-arrow-up-circle text-muted"
+            ></i>
+          </a>
+        </div>
+        <div class="col-2 text-end">
+          <a href="#" class="right-nav-button">
+            <i
+              style="font-size: 18pt !important"
+              class="bi bi-arrow-right-circle text-muted"
+            ></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="row border-bottom">
+        <div class="col-12">
+          <h1 id="chapter-title"
+            class="text-center"
+            style="
+              text-transform: uppercase;
+              color: gray;
+              letter-spacing: 0.25em;
+            "
+          >
+            Kapitel 1
+          </h1>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12" id="chapter-text"></div>
+      </div>
+
+      <div class="row mb-3 border-top">
+        <div class="col-2">
+          <a href="#" class="left-nav-button">
+            <i
+              style="font-size: 18pt"
+              class="bi bi-arrow-left-circle text-muted"
+            ></i>
+          </a>
+        </div>
+        <div class="col-8 text-center">
+          <a href="#" class="up-nav-button">
+            <i
+              style="font-size: 18pt"
+              class="bi bi-arrow-up-circle text-muted"
+            ></i>
+          </a>
+        </div>
+        <div class="col-2 text-end">
+          <a href="#" class="right-nav-button">
+            <i
+              style="font-size: 18pt !important"
+              class="bi bi-arrow-right-circle text-muted"
+            ></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="welcome" class="container px-5 py-5 mx-auto border rounded shadow">
       <div class="row">
-        <div class="col-12 col-xl-8 ps-3 pe-5">
+        <div class="col-12">
           <h1>Willkommen</h1>
           <p>
             Diese Seite dient dazu dir die Bibel, Gott und Jesus Christus
@@ -61,218 +141,62 @@
             bekannt machen.
           </p>
 
-          <h4 id="1">Auf der Suche nach der Wahrheit</h4>
-          <p>
-            <img
-              src="/assets/img-1-CFsHTfE5.jpg"
-              class="rounded float-end img-thumbnail ms-2"
-              style="width: 33%; height: auto"
-            />
-            Man müsste meinen, jeder Mensch wünschte sich zur Erkenntnis der
-            Wahrheit zu kommen (1.Timotheus&nbsp;2,4). Aber das Urteil der Bibel
-            ist:
-            <i
-              >Wir gingen alle in die Irre wie Schafe, ein jeder sah auf seinen
-              Weg.</i
-            >
-            (Jesaja&nbsp;53,7)
-            <i
-              >Aber sie sind alle abgewichen und allesamt verdorben; da ist
-              keiner, der Gutes tut, auch nicht einer.</i
-            >
-            (Psalm&nbsp;14,3) Der eigene Weg erscheint dem Menschen bequemer als
-            der Weg Gottes. Selbstbestimmung, Selbstverwirklichung, das sind die
-            Schlagworte unserer Zeit, die zur Freiheit führen sollen. Jedoch
-            sagt die Bibel:
-            <i>Die Wahrheit wird euch frei machen.</i> (Johannes&nbsp;8,32)
-          </p>
-          <p>
-            Wo ist die Wahrheit zu suchen und wo kann sie gefunden werden? Nicht
-            wenige Menschen nehmen Logik, Vernunft, Sehnsüchte als
-            Orientierungshilfen. Wiederum andere lesen Ratgeber kluger Menschen.
-            Manche eifern einem Lebensideal ihres persönlichen Idols nach.
-            Schließlich gibt es auch jene, denen die Suche nach der Wahrheit
-            unmöglich erscheint und sprechen wie Pilatus einst:
-            <i>Was ist Wahrheit?</i>
-            (Johannes&nbsp;18,38) Diese geben die Suche auf, ohne sie begonnen
-            zu haben.
-          </p>
-          <p>
-            Jesus Christus versprach, dass die Suche nach der Wahrheit niemals
-            erfolgslos bleiben wird:
-            <i
-              >Bittet, so wird euch gegeben; suchet, so werdet ihr finden;
-              klopfet an, so wird euch aufgetan. Denn wer da bittet, der
-              empfängt; und wer da sucht, der findet; und wer da anklopft, dem
-              wird aufgetan.</i
-            >
-            (Matthäus&nbsp;7,7-8)
-          </p>
-          <p>
-            Die Bibel beansprucht die Wahrheit zu sein. Obwohl die Bibel von
-            Menschen geschrieben wurde und von Menschen berichtet, ist sie nicht
-            menschlichen Ursprungs. Inspiriert (man könnte auch sagen:
-            getrieben, angeregt) durch den Geist Gottes haben Menschen die
-            Gedanken Gottes aufgeschrieben. Die Bibel gliedert sich in 66
-            Büchern, die über einen Zeitraum von mindestens 2.000 Jahren von
-            teilweise uns unbekannten Autoren verfasst wurde. Obwohl jedes
-            dieser Bücher sich im Stil und Wortwahl ihrem Autor entsprechend
-            unterscheiden, ist jedes einzelne Wort genau das von Gott gewollte
-            Wort, das so und nicht anders aufgeschrieben werden sollte. Als Gott
-            die Bibel mit dem Buch der Offenbarung des Johannes beendete, war
-            die Bibel vollständig. Seitdem wurde die Bibel unzählige Male
-            vervielfältigt, gedruckt und in andere Sprachen der Welt übersetzt.
-          </p>
-          <h4 id="2">Wie ist die Bibel zu lesen?</h4>
-          <p>
-            <img
-              src="/assets/img-3-CtlHjfaB.jpg"
-              class="rounded float-start img-thumbnail pe-3"
-              style="width: 50%; height: auto"
-            />
-            Wenn Du die Bibel zum ersten mal in die Hand nimmst, wirst Du dich
-            vielleicht fragen, wie dieses Buch am besten gelesen werden kann. Es
-            gibt kein richtig oder falsch, Du kannst jede Seite aufschlagen und
-            anfangen. Jede Seite der Bibel enthält Gottes Wort und besitzt
-            Kraft, nicht nur zu dir zu reden, sondern vermag auch dein Leben in
-            Gottes Bild zu verändern. Obwohl die Bibel ein altes Buch ist, ist
-            sie zeitlos. Gott als der Schöpfer der Menschen kennt die Menschen
-            durch und durch. Die Bibel enthält zeitlose Wahrheiten, die heute
-            genauso gelten wie zu Anbeginn der Welt. Die Bibel ist das einzige
-            Buch, das jeden Tag neu gelesen werden kann und dem Leser neue
-            Wahrheiten über Gott, diese Welt und sich selbst offenbaren wird.
-            Die Bibel ist auch das einzige Buch, das unabhängig von
-            Bildungsstand oder Lebensalter gelesen werden kann. Ein gelehrter
-            Professor kann die Bibel genauso lesen wie ein Schulkind, das gerade
-            erst das Alphabet lernte. Zu beiden kann Gott in gleicher Weise
-            reden und seine Größe offenbaren.
-          </p>
-          <p>
-            Wir sehen, weder dein Alter noch dein Bildungsstand entscheidet
-            darüber, ob du die Bibel lesen und verstehen kannst. Entscheidend
-            ist jedoch, mit welcher Herzenseinstellung du Gottes Wort lesen
-            wirst. Bete, bevor du die Bibel öffnest, dass Gott sich deinem
-            Herzen durch das gelesene Wort offenbaren möchte. Bitte um
-            Verständnis für das gelesene Wort Gottes. Dann fange an, einen
-            Abschnitt aus der Bibel zu lesen. Unterbreche das Lesen, wenn dir
-            eine Wahrheit wichtig wird, die du im Gebet vor Gott bringen
-            möchtest.
-          </p>
-          <p>
-            Die Bibel zu lesen ist nicht eine passive, entspannende Aktivität,
-            wie du es vielleicht vom Schmökern in einem Roman kennst. Vielmehr
-            ist es ein persönliches Zwiegespräch zwischen dir und Gott. Gott
-            redet durch die Bibel zu dir und du im Gebet mit Gott. Die
-            Wahrheiten, die du lesen wirst, werden dich herausfordern. Du wirst
-            Gottes Sicht auf dein Leben erfahren und dein Leben mit völlig neuen
-            Augen sehen.
-          </p>
-          <p>
-            Wenn du während oder nach diesem Kurs regelmäßig die Bibel lesen
-            möchtest, fange im Neuen Testament mit dem Johannesevangelium oder
-            mit dem Brief des Paulus an die Römer an. Beide Bücher richten sich
-            an Gläubige mit nur wenig oder keinem Hintergrundwissen des Alten
-            Testaments.
-          </p>
-          <p>
-            Mache dich mit deiner Bibel vertraut und verschaffe dir einen groben
-            Überblick. Beim durchblättern wird dir auffallen, dass die Bibel
-            sich in einzelne Bücher mit großen Überschriften gliedert. Der Text
-            wiederum ist in Kapitel unterteilt, die fortlaufend nummeriert sind
-            und kleinere Überschriften tragen. Jedes Kapitel teilt sich in
-            Verse, die mit kleinen Ziffern am Zeilenanfang gekennzeichnet sind.
-            Die Überschriften, die Kapitel- und Verseinteilung wird von dem
-            Herausgeber der Bibel eingefügt, um die Orientierung im Text zu
-            erleichtern und sind nicht Teil der von Gott inspirierten Schrift.
-          </p>
-          <h4 id="3">Die Bedeutung des Wortes Gottes für unser Leben</h4>
-          <p>
-            Wir wollen weiter die Bedeutung des Wortes Gottes für unser Leben
-            verstehen. Blättere zu Jeremia (im letzten Drittel des Alten
-            Testaments) und schlage dort das Kapitel 15 auf. Lese den Vers 16
-            (In Zukunft werden wir so abkürzen: Jeremia 15,16).
-          </p>
-          <p>
-            <i class="bi bi-lightbulb-fill fs-2 text-warning"></i>Welche
-            Bedeutung hatten die Worte Gottes für das Leben des Propheten
-            Jeremia?
-          </p>
-          <p>
-            Jeremia war ein Mensch, der viel Leid mitansehen musste. Er erlebte
-            den geistlichen Niedergang der jüdischen Nation, die Belagerung, die
-            Hungersnot und schließlich die Einnahme Jerusalems durch die Assyrer
-            unter König Nebukadnezar. In dieser notvollen Zeit sollte er das
-            Wort Gottes unter dem Volk verkündigen und der Prophet merkte, dass
-            ihm diese Worte Gottes wichtiger wurden, als Nahrung oder etwas zu
-            trinken.
-          </p>
-          <p>
-            <i class="bi bi-lightbulb-fill fs-2 text-warning"></i>Lese nun
-            Johannes 4,13.
-          </p>
-          <p>
-            Uns ist hier das Zwiegespräch zwischen Jesus und einer Frau aus
-            Samaria überliefert. Die Frau war gekommen, um Wasser zu schöpfen.
-            Jesus erklärte dieser Frau, dass das Wasser zwar ihren Durst stillen
-            wird, aber nicht den Durst des Herzens nach Leben. Ihr Inneres wird
-            leer bleiben. Stattdessen brauchte die Frau das lebendige Wasser,
-            das nur Jesus geben kann. Das Wasser ist hier ein Bild für das Wort
-            Gottes.
-          </p>
-          <p>
-            Welche Auswirkung sollte das Wort Gottes im Leben dieser Frau haben?
-          </p>
-          <p>
-            <i class="bi bi-lightbulb-fill fs-2 text-warning"></i>Blättere
-            einige Seite weiter und lese Johannes 6,30-35.
-          </p>
-          <p>
-            Wiederum sehen wir Jesus im Gespräch. Diesmal mit einer Gruppe
-            jüdischer Menschen aus Kapernaum. Sowohl die Frau aus Samaria als
-            auch diese Juden aus Kapernaum hofften, dass Jesus ihre jetzigen
-            Bedürfnisse nach den täglichen Fragen des Lebens stillen würde.
-            Obwohl Jesus keinen durstig oder hungrig zurücklies, erklärte er
-            ihnen, dass das Leben mehr ist, wie nur Essen, Trinken, Kleidung,
-            Autos, Häuser oder was sonst diese Welt zu bieten hat. Es geht um
-            einen inneres Verlangen im Menschen. Es geht um eine innere Unruhe
-            des Herzens. Es geht um eine Suche nach Sinn und Bedeutung des
-            Lebens. Es geht um die Fragen woher und wohin.
-          </p>
-          <p>
-            <i class="bi bi-lightbulb-fill fs-2 text-warning"></i> Jesus
-            erklärte seinen Zuhörern, wo sie ihr Verlangen stillen können. Gebe
-            es mit eigenen Worte wieder.
-          </p>
-          <p>
-            In diesen Beispielen sahen wir Menschen, denen das Wort Gottes
-            wichtiger als alles andere geworden war. Diesen Menschen war das
-            Wort Gottes zur Kraftquelle, zum Lebenssinn und zur täglichen
-            Orientierung geworden. In der nächsten Kurseinheit wollen wir in der
-            Bibel über Gott, Jesus Christus und den Heiligen Geist lesen.
-          </p>
-          <p>(Fortsetzung folgt)</p>
-          <!-- <p><a href="lecture-2.html">Wer ist Gott?</a></p> -->
-        </div>
+          <div class="row">
+            <div class="col-sm-3 mb-3 mb-sm-0">
+              <div class="card border rounded chapter-card">
+                <div class="card-body">
+                  <p class="card-title">1</p>
+                  <a
+                    href="#"
+                    data-chapter="1"
+                    class="stretched-link text-decoration-none text-center"
+                    >Die Suche nach der Wahrheit</a
+                  >
+                </div>
+              </div>
+            </div>
 
-        <div class="col-12 col-xl-4 px-5 border-start">
-          <h1>&nbsp;</h1>
-          <div style="position: sticky; top: 1rem">
-            <h5>Inhalt</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link active" href="#1"
-                  >Auf der Suche nach der Wahrheit</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#2">Wie ist die Bibel zu lesen?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#3"
-                  >Die Bedeutung des Wortes Gottes für unser Leben</a
-                >
-              </li>
-            </ul>
+            <div class="col-sm-3 mb-3 mb-sm-0">
+              <div class="card border rounded chapter-card">
+                <div class="card-body">
+                  <p class="card-title">2</p>
+                  <a
+                    href="#"
+                    data-chapter="2"
+                    class="stretched-link text-decoration-none text-center"
+                    >Wer ist Gott?</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3 mb-3 mb-sm-0">
+              <div class="card border rounded chapter-card">
+                <div class="card-body">
+                  <p class="card-title">3</p>
+                  <a
+                    href="#"
+                    data-chapter="3"
+                    class="stretched-link text-decoration-none text-center"
+                    >Wer ist der Mensch?</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3 mb-3 mb-sm-0">
+              <div class="card border rounded chapter-card">
+                <div class="card-body">
+                  <p class="card-title">4</p>
+                  <a
+                    href="#"
+                    data-chapter="4"
+                    class="stretched-link text-decoration-none text-center"
+                    >Der Ursprung der Welt</a
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
